@@ -24,15 +24,15 @@ Index
 
 SVM 模型可以由 LR 模型推导而来，下面是 LR 的直观理解：
 
-![](http://7xvfir.com1.z0.glb.clouddn.com/SVM/SVM_0.png)
+![](http://hexo-blog-wasim.oss-cn-shenzhen.aliyuncs.com/SVM/SVM_0.png)
 
 LR 单个样本的损失函数：
 
-![](http://7xvfir.com1.z0.glb.clouddn.com/SVM/SVM_1.png)
+![](http://hexo-blog-wasim.oss-cn-shenzhen.aliyuncs.com/SVM/SVM_1.png)
 
 接着我们对 LR 的代价函数（所有样本）进行转换，首先去掉 1/m 这一项，这也会得出同样的 $\theta$ 最优值，然后令 $C=1/\lambda$
 
-![](http://7xvfir.com1.z0.glb.clouddn.com/SVM/SVM_2.png)
+![](http://hexo-blog-wasim.oss-cn-shenzhen.aliyuncs.com/SVM/SVM_2.png)
 
 得到代价函数：
 $$\min_\limits{\theta}C\sum_\limits{i=1}^{m}\left[y^{(i)}{\cos}t_{1}\left(\theta^{T}x^{(i)}\right)+\left(1-y^{(i)}\right){\cos}t\left(\theta^{T}x^{(i)}\right)\right]+\frac{1}{2}\sum_\limits{i=1}^{n}\theta^{2}_{j}$$
@@ -41,15 +41,15 @@ $$\min_\limits{\theta}C\sum_\limits{i=1}^{m}\left[y^{(i)}{\cos}t_{1}\left(\theta
 
 根据逻辑回归 $h_\theta \left( x \right)$ 的公式，我们知道当 $\theta^Tx$ 大于0的话，模型代价函数值为1，类似地，如果你有一个负样本，则仅需要 $\theta^Tx$ 小于0就会将负例正确分离 。
 
-![](http://7xvfir.com1.z0.glb.clouddn.com/SVM/SVM_3.png)
+![](http://hexo-blog-wasim.oss-cn-shenzhen.aliyuncs.com/SVM/SVM_3.png)
 
 但是，**支持向量机的要求更高**，不仅仅要能正确分开输入的样本，即不仅仅要求大于0，我们需要的是比0值大很多，比如大于等于1，我也想这个比0小很多，比如我希望它小于等于-1，这就相当于在支持向量机中嵌入了一个额外的安全因子，或者说**安全的间距因子**。
 
-![](http://7xvfir.com1.z0.glb.clouddn.com/SVM/SVM_4.png)
+![](http://hexo-blog-wasim.oss-cn-shenzhen.aliyuncs.com/SVM/SVM_4.png)
 
 所以最小化问题可以转换为：
 
-![](http://7xvfir.com1.z0.glb.clouddn.com/SVM/SVM_5.png)
+![](http://hexo-blog-wasim.oss-cn-shenzhen.aliyuncs.com/SVM/SVM_5.png)
 
 这就是 SVM 的最终目标函数。
 
@@ -57,30 +57,30 @@ $$\min_\limits{\theta}C\sum_\limits{i=1}^{m}\left[y^{(i)}{\cos}t_{1}\left(\theta
 # <h2 id="大边界的直观理解与数学解释">大边界的直观理解与数学解释</h2>
 SVM 不仅需要能分类，还需要较高的鲁棒性，需要努力寻找一个最大间距（下图中的黑色超平面）来分离样本。所以 SVM 有时被称为**大间距分类器**。
 
-![](http://7xvfir.com1.z0.glb.clouddn.com/SVM/SVM_8.png)
+![](http://hexo-blog-wasim.oss-cn-shenzhen.aliyuncs.com/SVM/SVM_8.png)
 
 可是**为什么 SVM 能得到最大间距分类器**呢？我们仍然从 SVM 的目标函数进行分析。
 
 在这之前首先说下 [向量内积的相关知识](http://www.ai-start.com/ml2014/html/week7.html#header-n132)， $\left\|| u |\right\|$表示 u 的范数，即 u 的长度，即向量 u 的欧几里得长度，并且 $\left\|| u \right\||=\sqrt{u_{1}^{2}+u_{2}^{2}}$。我们将向量 v 投影到向量 u 上，做一个直角投影，接下来我度量这条红线的长度。我称这条红线的长度为 p ，因此内积 $u^Tv=p\centerdot \left\|| u |\right\|$。注意，如果 u 和 v 之间的夹角大于90度，内积是个负数。
-![](http://7xvfir.com1.z0.glb.clouddn.com/SVM/SVM_6.png)
+![](http://hexo-blog-wasim.oss-cn-shenzhen.aliyuncs.com/SVM/SVM_6.png)
 
 SVM 的目标函数为：
 
-![](http://7xvfir.com1.z0.glb.clouddn.com/SVM/SVM_5.png)
+![](http://hexo-blog-wasim.oss-cn-shenzhen.aliyuncs.com/SVM/SVM_5.png)
 
 根据向量内积的知识对目标函数进行转换，同时假设只有两个样本，每个样本只有两个维度，令 $\theta_0 = 0$，$n = 2$
 
-![](http://7xvfir.com1.z0.glb.clouddn.com/SVM/SVM_7.png)
+![](http://hexo-blog-wasim.oss-cn-shenzhen.aliyuncs.com/SVM/SVM_7.png)
 
 得到
 
-![](http://7xvfir.com1.z0.glb.clouddn.com/SVM/SVM_10.png)
+![](http://hexo-blog-wasim.oss-cn-shenzhen.aliyuncs.com/SVM/SVM_10.png)
 
 现在我们假设有如上图所示的样本分布，那么 SVM 会选择怎样的决策边界呢？
 
 **SVM 在分类的时候，为了不让模型过于复杂，会让 $\theta$ 的范数需要尽可能小，那么相应的，P也就是投影需要尽可能的大。我们知道 SVM 选择的参数 $\theta$ 的方向是和决策界是90度正交的，所以很明显，下图中，右边的绿色决策边界更理想，因为此刻样本在 $\theta$ 方向上的投影大很多。这就是为什么支持向量机最终会找到大间距分类器的原因。**
 
-![](http://7xvfir.com1.z0.glb.clouddn.com/SVM/SVM_11.png)
+![](http://hexo-blog-wasim.oss-cn-shenzhen.aliyuncs.com/SVM/SVM_11.png)
 
 
 $$\min_\limits{\theta}C\sum_\limits{i=1}^{m}\left[y^{(i)}{\cos}t_{1}\left(\theta^{T}x^{(i)}\right)+\left(1-y^{(i)}\right){\cos}t\left(\theta^{T}x^{(i)}\right)\right]+\frac{1}{2}\sum_\limits{i=1}^{n}\theta^{2}_{j}$$
@@ -89,7 +89,7 @@ $$\min_\limits{\theta}C\sum_\limits{i=1}^{m}\left[y^{(i)}{\cos}t_{1}\left(\theta
 **（1）C 较大时，相当于 $\lambda$ 较小，可能会导致过拟合，高方差。**
 **（2）C 较小时，相当于 $\lambda$ 较大，可能会导致低拟合，高偏差。**
 
-![](http://7xvfir.com1.z0.glb.clouddn.com/SVM/SVM_9.png)
+![](http://hexo-blog-wasim.oss-cn-shenzhen.aliyuncs.com/SVM/SVM_9.png)
 
 比如你加了上图这个异常样本，为了将样本用最大间距分开，SVM 会将参数 C 设置的非常大，得到红色的决策边界，这是非常不明智的。但是**<font color="red"> 如果 C 设置的小一点，你最终会得到这条黑线。当 C 不是非常非常大的时候，它可以忽略掉一些异常点的影响，得到更好的决策界</font>**。甚至当你的数据不是线性可分的时候，支持向量机也可以给出好的结果。
 
@@ -105,18 +105,18 @@ $$\min_\limits{\theta}C\sum_\limits{i=1}^{m}\left[y^{(i)}{\cos}t_{1}\left(\theta
 
 假设有两个样本 X1 和 X2，它们是二维平面的两个坐标。样本分布如图所示
 
-![](http://7xvfir.com1.z0.glb.clouddn.com/SVM/SVM_12.png)
+![](http://hexo-blog-wasim.oss-cn-shenzhen.aliyuncs.com/SVM/SVM_12.png)
 
 此刻为了线性可分，我们想到一个方法，把样本投射到高纬空间，如图所示
 
-![](http://7xvfir.com1.z0.glb.clouddn.com/SVM/SVM_14.png)
+![](http://hexo-blog-wasim.oss-cn-shenzhen.aliyuncs.com/SVM/SVM_14.png)
 
 我们知道一条二次曲线（圆圈是二次曲线的一种特殊情况）的方程可以写作这样的形式：
 
-![](http://7xvfir.com1.z0.glb.clouddn.com/SVM/SVM_13.png)
+![](http://hexo-blog-wasim.oss-cn-shenzhen.aliyuncs.com/SVM/SVM_13.png)
 
 那么对一个二维空间做映射，选择的新空间是原始空间的所有一阶和二阶的组合，会得到五个维度，所以需要映射到五维空间，即R2→R5。假设新的空间的五个坐标的值分别为 Z1=X1, Z2=X1^2, Z3=X2, Z4=X2^2, Z5=X1X2，那么上面的方程在新的坐标系下可以写作
-![](http://7xvfir.com1.z0.glb.clouddn.com/SVM/SVM_15.png)
+![](http://hexo-blog-wasim.oss-cn-shenzhen.aliyuncs.com/SVM/SVM_15.png)
 
 这个过程其实涉及了两个步骤：
 （1）首先使用一个非线性映射将数据变换到一个高纬特征空间F，
@@ -126,24 +126,24 @@ $$\min_\limits{\theta}C\sum_\limits{i=1}^{m}\left[y^{(i)}{\cos}t_{1}\left(\theta
 
 那么怎么办呢？我们首先来看下高纬空间的内积计算（尖括号代表内积计算，$ϕ$ 代表低纬到高纬的映）：
 
-![](http://7xvfir.com1.z0.glb.clouddn.com/SVM/SVM_16.png)
+![](http://hexo-blog-wasim.oss-cn-shenzhen.aliyuncs.com/SVM/SVM_16.png)
 
 另外，我们又注意到：
 
-![](http://7xvfir.com1.z0.glb.clouddn.com/SVM/SVM_17.png)
+![](http://hexo-blog-wasim.oss-cn-shenzhen.aliyuncs.com/SVM/SVM_17.png)
 
 二者有很多相似的地方，实际上，我们只要把某几个维度线性缩放一下，然后再加上一个常数维度，具体来说，上面这个式子的计算结果实际上和映射
 
-![](http://7xvfir.com1.z0.glb.clouddn.com/SVM/SVM_18.png)
+![](http://hexo-blog-wasim.oss-cn-shenzhen.aliyuncs.com/SVM/SVM_18.png)
 
-之后的内积![](http://7xvfir.com1.z0.glb.clouddn.com/SVM/SVM_19.png)的结果是相等的，**那么区别在于什么地方呢？**
+之后的内积![](http://hexo-blog-wasim.oss-cn-shenzhen.aliyuncs.com/SVM/SVM_19.png)的结果是相等的，**那么区别在于什么地方呢？**
 **1. 一个是映射到高维空间中，然后再根据内积的公式进行计算；**
 **2. 而另一个则直接在原来的低维空间中进行计算，而不需要显式地写出映射后的结果。**
 
 **我们把这里的计算两个向量在隐式映射过后的空间中的内积的函数叫做核函数。核函数能简化映射空间中的内积运算——刚好“碰巧”的是，在我们的 SVM 里需要计算的地方数据向量总是以内积的形式出现的。**
 
 常用的核函数：
-![](http://7xvfir.com1.z0.glb.clouddn.com/SVM/SVM_20.png)
+![](http://hexo-blog-wasim.oss-cn-shenzhen.aliyuncs.com/SVM/SVM_20.png)
 
 刚才所举例子用的就是多项式核（R = 1，d = 2），但是 [高斯核](http://www.ai-start.com/ml2014/html/week7.html#header-n197) 相对而言用的最广泛，**注意高斯核与正态分布没什么实际上的关系，只是看上去像而已**。
 
@@ -175,11 +175,11 @@ n 为特征数，m 为训练样本数。
 
 推荐一篇文章： [svm核函数的理解和选择](https://blog.csdn.net/leonis_v/article/details/50688766)
 
-![](http://7xvfir.com1.z0.glb.clouddn.com/SVM/http://7xvfir.com1.z0.glb.clouddn.com/机器学习知识点集锦/71.png)
+![](http://hexo-blog-wasim.oss-cn-shenzhen.aliyuncs.com/SVM/http://hexo-blog-wasim.oss-cn-shenzhen.aliyuncs.com/机器学习知识点集锦/71.png)
 
 
 # <h2 id="带核的SVM为什么能分类非线性问题">带核的SVM为什么能分类非线性问题</h2> 
 
 **核函数的本质是两个函数的內积，通过核函数，SVM将低维数据隐射到高维空间，在高维空间，非线性问题转化为线性问题**，详见 [核函数](#核函数)。
-![](http://7xvfir.com1.z0.glb.clouddn.com/SVM/SVM_14.png)
+![](http://hexo-blog-wasim.oss-cn-shenzhen.aliyuncs.com/SVM/SVM_14.png)
 

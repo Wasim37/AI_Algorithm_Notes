@@ -5,7 +5,7 @@ Index
 ---
 <!-- TOC -->
 
-- [示例代码](https://github.com/Wasim37/machine_learning_code/tree/master/04%20%E6%94%AF%E6%8C%81%E5%90%91%E9%87%8F%E6%9C%BA%20SVM/notebook)
+- [示例代码](https://github.com/Wasim37/machine_learning_code/tree/master/04 支持向量机 SVM/notebook)
 - [SVM目标函数推导](#SVM目标函数推导)
 - [大边界的直观理解与数学解释](#大边界的直观理解与数学解释)
 - [核函数](#核函数)
@@ -175,7 +175,7 @@ n 为特征数，m 为训练样本数。
 
 推荐一篇文章： [svm核函数的理解和选择](https://blog.csdn.net/leonis_v/article/details/50688766)
 
-![](http://7xvfir.com1.z0.glb.clouddn.com/SVM/http://7xvfir.com1.z0.glb.clouddn.com/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E7%82%B9%E9%9B%86%E9%94%A6/71.png)
+![](http://7xvfir.com1.z0.glb.clouddn.com/SVM/http://7xvfir.com1.z0.glb.clouddn.com/机器学习知识点集锦/71.png)
 
 
 # <h2 id="带核的SVM为什么能分类非线性问题">带核的SVM为什么能分类非线性问题</h2> 
@@ -183,6 +183,3 @@ n 为特征数，m 为训练样本数。
 **核函数的本质是两个函数的內积，通过核函数，SVM将低维数据隐射到高维空间，在高维空间，非线性问题转化为线性问题**，详见 [核函数](#核函数)。
 ![](http://7xvfir.com1.z0.glb.clouddn.com/SVM/SVM_14.png)
 
-
-
----

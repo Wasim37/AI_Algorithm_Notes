@@ -14,18 +14,18 @@ CNN经典网络总结
 - 当 LeNet-5模型被提出时，其池化层使用的是平均池化，而且各层激活函数一般选用 Sigmoid 和 tanh。现在，我们可以根据需要，做出改进，使用最大池化并选用 ReLU 作为激活函数。
 
 
-![](http://7xvfir.com1.z0.glb.clouddn.com/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E7%82%B9%E9%9B%86%E9%94%A6/LeNet-5.png)
+![](http://7xvfir.com1.z0.glb.clouddn.com/深度学习知识点集锦/LeNet-5.png)
 
-![](http://7xvfir.com1.z0.glb.clouddn.com/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E7%82%B9%E9%9B%86%E9%94%A6/blog-lenet.jpg)
+![](http://7xvfir.com1.z0.glb.clouddn.com/深度学习知识点集锦/blog-lenet.jpg)
 
 相关论文：[LeCun et.al., 1998. Gradient-based learning applied to document recognition](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=726791&tag=1)。吴恩达老师建议精读第二段，泛读第三段。
 
 
 # AlexNet-8
 
-![AlexNet-1](http://7xvfir.com1.z0.glb.clouddn.com/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E7%82%B9%E9%9B%86%E9%94%A6/AlexNet.png)
+![AlexNet-1](http://7xvfir.com1.z0.glb.clouddn.com/深度学习知识点集锦/AlexNet.png)
 
-![AlexNet-2](http://7xvfir.com1.z0.glb.clouddn.com/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E7%82%B9%E9%9B%86%E9%94%A6/20161104193655152_AlexNet.png)
+![AlexNet-2](http://7xvfir.com1.z0.glb.clouddn.com/深度学习知识点集锦/20161104193655152_AlexNet.png)
 
 
 AlexNet-8有5个卷积层和3个全连接层，它与 LeNet-5 模型类似，但是更复杂，包含约 6000 万参数。
@@ -44,9 +44,9 @@ AlexNet-8有5个卷积层和3个全连接层，它与 LeNet-5 模型类似，但
 
 # VGG-16
 
-![VGG 常见结构图](http://7xvfir.com1.z0.glb.clouddn.com/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E7%82%B9%E9%9B%86%E9%94%A6/20180423192419_VGG.png)
+![VGG 常见结构图](http://7xvfir.com1.z0.glb.clouddn.com/深度学习知识点集锦/20180423192419_VGG.png)
 
-![](http://7xvfir.com1.z0.glb.clouddn.com/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E7%82%B9%E9%9B%86%E9%94%A6/VGG.png)
+![](http://7xvfir.com1.z0.glb.clouddn.com/深度学习知识点集锦/VGG.png)
 
 
 
@@ -64,13 +64,13 @@ AlexNet-8有5个卷积层和3个全连接层，它与 LeNet-5 模型类似，但
 
 1x1 卷积（1x1 convolution，或称为 Network in Network）指滤波器的尺寸为 1。当通道数为 1 时，1x1 卷积意味着卷积操作等同于乘积操作。
 
-![](http://7xvfir.com1.z0.glb.clouddn.com/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E7%82%B9%E9%9B%86%E9%94%A6/1x1-Conv-1.png)
+![](http://7xvfir.com1.z0.glb.clouddn.com/深度学习知识点集锦/1x1-Conv-1.png)
 
 **而当通道数更多时，1x1 卷积的作用实际上类似全连接的神经网络结构，从而降低（或升高，取决于滤波器组数）数据的维度。**
 
 池化能压缩数据的高度 $n_H$ 及宽度 $n_W$，而 1×1 卷积能压缩数据的通道数 $n_C$。在如下图所示的例子中，用 32 个大小为 1×1×192 的滤波器进行卷积，就能使原先数据包含的 192 个通道压缩为 32 个。
 
-![](http://7xvfir.com1.z0.glb.clouddn.com/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E7%82%B9%E9%9B%86%E9%94%A6/1x1-Conv-2.png)
+![](http://7xvfir.com1.z0.glb.clouddn.com/深度学习知识点集锦/1x1-Conv-2.png)
 
 虽然论文 [Lin et al., 2013. Network in network](https://arxiv.org/pdf/1312.4400.pdf) 中关于架构的详细内容并没有得到广泛应用，但是 1x1 卷积的理念十分有影响力，许多神经网络架构（包括 Inception 网络）都受到它的影响。
 
@@ -87,7 +87,7 @@ AlexNet-8有5个卷积层和3个全连接层，它与 LeNet-5 模型类似，但
 
 在之前的卷积网络中，我们只能选择单一尺寸和类型的滤波器。而 Inception **网络的作用** 是代替人工来确定卷积层中的滤波器尺寸与类型，或者确定是否需要创建卷积层或池化层。
 
-![](http://7xvfir.com1.z0.glb.clouddn.com/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E7%82%B9%E9%9B%86%E9%94%A6/Motivation-for-inception-network.jpg)
+![](http://7xvfir.com1.z0.glb.clouddn.com/深度学习知识点集锦/Motivation-for-inception-network.jpg)
 
 如图，Inception 网络选用不同尺寸的滤波器进行 Same 卷积，并将卷积和池化得到的输出组合拼接起来，最终让网络自己去学习需要的参数和采用的滤波器组合。
 
@@ -97,13 +97,13 @@ AlexNet-8有5个卷积层和3个全连接层，它与 LeNet-5 模型类似，但
 
 在提升性能的同时，Inception 网络有着较大的计算成本。下图是一个例子：
 
-![](http://7xvfir.com1.z0.glb.clouddn.com/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E7%82%B9%E9%9B%86%E9%94%A6/The-problem-of-computational-cost.png)
+![](http://7xvfir.com1.z0.glb.clouddn.com/深度学习知识点集锦/The-problem-of-computational-cost.png)
 
 图中有 32 个滤波器，每个滤波器的大小为 5x5x192。输出大小为 28x28x32，所以需要计算 28x28x32 个数字，对于每个数，都要执行 5x5x192 次乘法运算。加法运算次数与乘法运算次数近似相等。因此，可以看作这一层的计算量为 28x28x32x5x5x192 = 1.2亿。
 
 为了解决计算量大的问题，可以引入 1x1 卷积来减少其计算量。
 
-![](http://7xvfir.com1.z0.glb.clouddn.com/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E7%82%B9%E9%9B%86%E9%94%A6/Using-1x1-convolution.png)
+![](http://7xvfir.com1.z0.glb.clouddn.com/深度学习知识点集锦/Using-1x1-convolution.png)
 
 对于同一个例子，我们使用 1x1 卷积把输入数据从 192 个通道减少到 16 个通道，然后对这个较小层运行 5x5 卷积，得到最终输出。这个 1x1 的卷积层通常被称作**瓶颈层**（Bottleneck layer）。
 
@@ -113,13 +113,13 @@ AlexNet-8有5个卷积层和3个全连接层，它与 LeNet-5 模型类似，但
 
 ##完整的 Inception 网络
 
-![](http://7xvfir.com1.z0.glb.clouddn.com/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E7%82%B9%E9%9B%86%E9%94%A6/Inception-module.jpg)
+![](http://7xvfir.com1.z0.glb.clouddn.com/深度学习知识点集锦/Inception-module.jpg)
 
 上图是引入 1x1 卷积后的 Inception 模块。值得注意的是，为了将所有的输出组合起来，红色的池化层使用 Same 类型的填充（padding）来池化使得输出的宽高不变，通道数也不变。
 
 多个 Inception 模块组成一个完整的 Inception 网络（被称为 GoogLeNet，以向 LeNet 致敬），如下图所示：
 
-![Inception_v1 网络](http://7xvfir.com1.z0.glb.clouddn.com/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E7%82%B9%E9%9B%86%E9%94%A6/20160904161917654_inception_v1.png)
+![Inception_v1 网络](http://7xvfir.com1.z0.glb.clouddn.com/深度学习知识点集锦/20160904161917654_inception_v1.png)
 
 注意黑色椭圆圈出的隐藏层，这些分支都是 Softmax 的输出层，可以用来参与特征的计算及结果预测，起到调整并防止发生过拟合的效果。
 
@@ -129,7 +129,7 @@ AlexNet-8有5个卷积层和3个全连接层，它与 LeNet-5 模型类似，但
 
 <font color="red">因为存在梯度消失和梯度爆炸问题，网络越深，就越难以训练成功。**残差网络**（Residual Networks，简称为 ResNets）可以有效解决这个问题。</font>
 
-![](http://7xvfir.com1.z0.glb.clouddn.com/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E7%82%B9%E9%9B%86%E9%94%A6/Residual-block.jpg)
+![](http://7xvfir.com1.z0.glb.clouddn.com/深度学习知识点集锦/Residual-block.jpg)
 
 上图的结构被称为**残差块**（Residual block）。通过**捷径**（Short cut，或者称**跳远连接**，Skip connections）可以将 a[l]添加到第二个 ReLU 过程中，直接建立 a[l]与 a[l+2]之间的隔层联系。表达式如下：
 
@@ -140,20 +140,20 @@ $$a^{[l+2]} = g(z^{[l+2]} + a^{[l]})$$
 
 构建一个残差网络就是将许多残差块堆积在一起，形成一个深度网络。
 
-![](http://7xvfir.com1.z0.glb.clouddn.com/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E7%82%B9%E9%9B%86%E9%94%A6/Residual-Network.jpg)
+![](http://7xvfir.com1.z0.glb.clouddn.com/深度学习知识点集锦/Residual-Network.jpg)
 
 为了便于区分，在 ResNets 的论文 [He et al., 2015. Deep residual networks for image recognition](https://arxiv.org/pdf/1512.03385.pdf)中，非残差网络被称为**普通网络**（Plain Network）。将它变为残差网络的方法是加上所有的跳远连接。
 
 在理论上，随着网络深度的增加，性能应该越来越好。但实际上，对于一个普通网络，随着神经网络层数增加，训练错误会先减少，然后开始增多。但残差网络的训练效果显示，<font color="red">即使网络再深，其在训练集上的表现也会越来越好</font>。
 
-![](http://7xvfir.com1.z0.glb.clouddn.com/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E7%82%B9%E9%9B%86%E9%94%A6/ResNet-Training-Error.jpg)
+![](http://7xvfir.com1.z0.glb.clouddn.com/深度学习知识点集锦/ResNet-Training-Error.jpg)
 
 **残差网络有助于解决梯度消失和梯度爆炸问题，使得在训练更深的网络的同时，又能保证良好的性能。**
 
 ## 残差网络有效的原因
 假设有一个大型神经网络，其输入为 $X$，输出为 $a^{[l]}$。给这个神经网络额外增加两层，输出为 $a^{[l+2]}$。将这两层看作一个具有跳远连接的残差块。为了方便说明，假设整个网络中都选用 ReLU 作为激活函数，因此输出的所有激活值都大于等于 0。
 
-![](http://7xvfir.com1.z0.glb.clouddn.com/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E7%82%B9%E9%9B%86%E9%94%A6/Why-do-residual-networks-work.jpg)
+![](http://7xvfir.com1.z0.glb.clouddn.com/深度学习知识点集锦/Why-do-residual-networks-work.jpg)
 
 则有：
 
@@ -173,11 +173,11 @@ $$a^{[l+2]} = g(a^{[l]}) = ReLU(a^{[l]}) = a^{[l]}$$
 
 注意，**如果 $a^{[l]}$与 $a^{[l+2]}$ 的维度不同，需要引入矩阵 $W_s$ 与 $a^{[l]}$ 相乘，使得二者的维度相匹配**。参数矩阵 $W_s$既可以通过模型训练得到，也可以作为固定值，仅使 $a^{[l]}$ 截断或者补零。
 
-![](http://7xvfir.com1.z0.glb.clouddn.com/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E7%82%B9%E9%9B%86%E9%94%A6/ResNet-Paper.png)
+![](http://7xvfir.com1.z0.glb.clouddn.com/深度学习知识点集锦/ResNet-Paper.png)
 
 上图是论文提供的 CNN 中 ResNet 的一个典型结构。卷积层通常使用 Same 卷积以保持维度相同，而不同类型层之间的连接（例如卷积层和池化层），**如果维度不同，则需要引入矩阵 $W_s$**。
 
 
 # 经典网络对比
 
-![](http://7xvfir.com1.z0.glb.clouddn.com/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E7%82%B9%E9%9B%86%E9%94%A6/62.png)
+![](http://7xvfir.com1.z0.glb.clouddn.com/深度学习知识点集锦/62.png)

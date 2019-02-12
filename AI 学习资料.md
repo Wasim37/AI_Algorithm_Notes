@@ -1,59 +1,64 @@
-AI Ñ§Ï°×ÊÁÏ
+AI å­¦ä¹ èµ„æ–™
 ===
 
-### AI ×ÊÑ¶
-- [Arxiv Sanity Preserver£¨AIÂÛÎÄ¼ìË÷ÒıÇæ£©](http://www.arxiv-sanity.com/)
-- [ShortScience£¨AI ÂÛÎÄÕªÒª£©](http://www.shortscience.org/)
+### AI èµ„è®¯
+
+- [Arxiv Sanity Preserverï¼ˆAIè®ºæ–‡æ£€ç´¢å¼•æ“ï¼‰](http://www.arxiv-sanity.com/)
+- [ShortScienceï¼ˆAI è®ºæ–‡æ‘˜è¦ï¼‰](http://www.shortscience.org/)
 - [Google AI Blog](https://ai.googleblog.com/)
 - [Facebook AI Blog](https://research.fb.com/blog/)
 - [Google AI](https://ai.google/)
 - [Apple AI](https://machinelearning.apple.com/)
 - [Facebook AI](https://research.fb.com/category/facebook-ai-research/)
-- [°Ù¶ÈAI¿ª·ÅÆ½Ì¨-È«ÇòÁìÏÈµÄÈË¹¤ÖÇÄÜ·şÎñÆ½Ì¨](http://ai.baidu.com/)
-- [ÌÚÑ¶ AI Lab - ÌÚÑ¶ÈË¹¤ÖÇÄÜÊµÑéÊÒ¹ÙÍø](https://ai.tencent.com/ailab/)
+- [ç™¾åº¦AIå¼€æ”¾å¹³å°-å…¨çƒé¢†å…ˆçš„äººå·¥æ™ºèƒ½æœåŠ¡å¹³å°](http://ai.baidu.com/)
+- [è…¾è®¯ AI Lab - è…¾è®¯äººå·¥æ™ºèƒ½å®éªŒå®¤å®˜ç½‘](https://ai.tencent.com/ailab/)
 
 
-### AI ½ø½×
-Kaggle ¾ºÈü»á¶ÔÈ«Çò²ÎÈüÕß½øĞĞÅÅÃû£¬Í¨¹ı²é¿´²ÎÈüÕß´úÂë£¬ÄÜ¼«´óÌá¸ßAI±à³ÌÄÜÁ¦¡£<br/>
-¹Ø×¢²»Í¬×éÖ¯µÄ¾ºÈü£¬ÄÜÓĞĞ§»ñÈ¡¸÷ÁìÓòÏà¹ØÎÊÌâµÄÇ°ÑØ½â¾ö·½°¸£º<br/>
-- [Kaggle Êı¾İ¿ÆÑ§¾ºÈü](https://www.kaggle.com/competitions)
-- [DF,CCFÖ¸¶¨×¨Òµ´óÊı¾İ¾ºÈüÆ½Ì¨](https://www.datafountain.cn/competitions?page=2)
-- [AI Challenger - È«ÇòAIÌôÕ½Èü](https://challenger.ai/competitions)
-- [biendata Êı¾İ¾ºÈü](https://www.biendata.com/)
-- [°¢ÀïÔÆÌì³Ø´óÈü](https://tianchi.aliyun.com/competition/gameList/activeList)
+### AI è¿›é˜¶
+
+Kaggle ç«èµ›ä¼šå¯¹å…¨çƒå‚èµ›è€…è¿›è¡Œæ’åï¼Œé€šè¿‡æŸ¥çœ‹å‚èµ›è€…ä»£ç ï¼Œèƒ½æå¤§æé«˜AIç¼–ç¨‹èƒ½åŠ›ã€‚<br/>
+å…³æ³¨ä¸åŒç»„ç»‡çš„ç«èµ›ï¼Œèƒ½æœ‰æ•ˆè·å–å„é¢†åŸŸç›¸å…³é—®é¢˜çš„å‰æ²¿è§£å†³æ–¹æ¡ˆï¼š<br/>
+- [Kaggle æ•°æ®ç§‘å­¦ç«èµ›](https://www.kaggle.com/competitions)
+- [DF,CCFæŒ‡å®šä¸“ä¸šå¤§æ•°æ®ç«èµ›å¹³å°](https://www.datafountain.cn/competitions?page=2)
+- [AI Challenger - å…¨çƒAIæŒ‘æˆ˜èµ›](https://challenger.ai/competitions)
+- [biendata æ•°æ®ç«èµ›](https://www.biendata.com/)
+- [é˜¿é‡Œäº‘å¤©æ± å¤§èµ›](https://tianchi.aliyun.com/competition/gameList/activeList)
 
 
-### Îâ¶÷´ï
-Îâ¶÷´ï¿Î³Ì£¬ÏµÍ³È«Ãæ£¬»ù±¾º­¸ÇÁËÑ§Êõ½çÓë¹¤Òµ½ç2018ÄêÒÔÇ°×îĞÂ½øÕ¹¡£
-¿Î³ÌÄÚÈİ°´ÔÂÉè¼Æ£¬Ã¿ÔÂËÄÖÜ¡£Ã¿ÖÜ¿Î³ÌÄÚÈİ£ºÊÓÆµ£¨Ã¿¸öÔ¼15min£©¡¢ÂÛÎÄ¼°±à³Ì×÷Òµ¡£
-±à³Ì×÷ÒµÉæ¼°ÈËÁ³Ê¶±ğ¡¢Ä¿±ê¼ì²â¡¢Éñ¾­·ç¸ñ×ªÒÆ¡¢»úÆ÷·­ÒëÓëÓïÒôÊ¶±ğµÈ¡£
+### å´æ©è¾¾
 
-- [Îâ¶÷´ï2014»úÆ÷Ñ§Ï°-Ë¹Ì¹¸£¿Î³Ì£¨ÖĞÎÄ×ÖÄ»£©](https://study.163.com/course/introduction/1004570029.htm)
-- [Îâ¶÷´ï2017Éî¶ÈÑ§Ï°-Coursera¿Î³Ì£¨ÖĞÎÄ×ÖÄ»£©](https://mooc.study.163.com/smartSpec/detail/1001319001.htm)
-- [Îâ¶÷´ï2017Éî¶ÈÑ§Ï°-¿Îºó×÷Òµ](https://github.com/Wasim37/deeplearning-assignment)
-- [Îâ¶÷´ï2014»úÆ÷Ñ§Ï°-ÎÄ×Ö°æ-Ä¿Â¼](http://www.ai-start.com/ml2014/)
-- [Îâ¶÷´ï2017Éî¶ÈÑ§Ï°-ÎÄ×Ö°æ-Ä¿Â¼](http://www.ai-start.com/dl2017/)
-- [Îâ¶÷´ï2017Éî¶ÈÑ§Ï°-ÄÚÈİÌáÁ¶°æ-Ä¿Â¼](http://kyonhuang.top/Andrew-Ng-Deep-Learning-notes/#/)
+å´æ©è¾¾è¯¾ç¨‹ï¼Œç³»ç»Ÿå…¨é¢ï¼ŒåŸºæœ¬æ¶µç›–äº†å­¦æœ¯ç•Œä¸å·¥ä¸šç•Œ2018å¹´ä»¥å‰æœ€æ–°è¿›å±•ã€‚
+è¯¾ç¨‹å†…å®¹æŒ‰æœˆè®¾è®¡ï¼Œæ¯æœˆå››å‘¨ã€‚æ¯å‘¨è¯¾ç¨‹å†…å®¹ï¼šè§†é¢‘ï¼ˆæ¯ä¸ªçº¦15minï¼‰ã€è®ºæ–‡åŠç¼–ç¨‹ä½œä¸šã€‚
+ç¼–ç¨‹ä½œä¸šæ¶‰åŠäººè„¸è¯†åˆ«ã€ç›®æ ‡æ£€æµ‹ã€ç¥ç»é£æ ¼è½¬ç§»ã€æœºå™¨ç¿»è¯‘ä¸è¯­éŸ³è¯†åˆ«ç­‰ã€‚
 
-### ÆäËû×ÊÁÏ
-- [Google Tensorflow ¹Ù·½½Ì³Ì](https://www.tensorflow.org/tutorials/)
-- [Google »úÆ÷Ñ§Ï°ÈëÃÅ¿Î³Ì](https://developers.google.cn/machine-learning/crash-course/)
-- [Ë¹Ì¹¸£-Éî¶ÈÊÓ¾õÊ¶±ğ¿Î-Àî·É·É-2017´º¼¾CS231n£¨ÖĞÎÄ×ÖÄ»£©](http://www.mooc.ai/course/268)
-- [Éî¶ÈÑ§Ï°ÏîÄ¿ÊµÕ½£¨ÆßÔÂÔÚÏß - Google¿ªÔ´ÏîÄ¿½²½â£©](https://pan.baidu.com/s/1ziU-IvN1ovEJR0c1wtmA1A) ÌáÈ¡Âë£ºj90l
-- [¸ÅÂÊ¡¢ÊıÑ§ÓëÍ³¼Æ»ù´¡](https://pan.baidu.com/s/11Y_G6EV90xqbtMU-X9mkPw) ÌáÈ¡Âë£ºd66m
-- [PythonÊı¾İ·ÖÎöÓë»úÆ÷Ñ§Ï°ÊµÕ½](https://pan.baidu.com/s/1nKBuLhv-xusUfGUB1mmnxg) ÌáÈ¡Âë£ºdksk
-- [»úÆ÷Ñ§Ï°VI£¨Ğ¡ÏñÑ§Ôº-µÚÆßÆÚ-×Ş²©²©Ê¿-201804£©](https://pan.baidu.com/s/1xjMVSsfGP66EDEAP90FNLw) ÌáÈ¡Âë£ºmuhq
-- [×ÔÈ»ÓïÑÔ´¦ÀíNLP£¨Ë¹Ì¹¸£¡¢¹ş¹¤´ó¡¢ÖĞ¿ÆÔºµÈ£©](https://pan.baidu.com/s/1csJDGk-znoONIVH-uFk9sQ) ÌáÈ¡Âë£ºpyo2 
-- [ÖªÊ¶Í¼Æ×£¨Ğ¡ÏñÑ§Ôº-2018£©](https://pan.baidu.com/s/1Rwy7BuDZGHmMtFhoaDGQnQ) ÌáÈ¡Âë£ºc59v
-- [AI ÍÆ¼öËã·¨£¨±±·ç-201804£©](https://pan.baidu.com/s/19en_QaQSXPlpMI59FORWXw) ÌáÈ¡Âë£º4ii2
+- [å´æ©è¾¾2014æœºå™¨å­¦ä¹ -æ–¯å¦ç¦è¯¾ç¨‹ï¼ˆä¸­æ–‡å­—å¹•ï¼‰](https://study.163.com/course/introduction/1004570029.htm)
+- [å´æ©è¾¾2017æ·±åº¦å­¦ä¹ -Courseraè¯¾ç¨‹ï¼ˆä¸­æ–‡å­—å¹•ï¼‰](https://mooc.study.163.com/smartSpec/detail/1001319001.htm)
+- [å´æ©è¾¾2017æ·±åº¦å­¦ä¹ -è¯¾åä½œä¸š](https://github.com/Wasim37/deeplearning-assignment)
+- [å´æ©è¾¾2014æœºå™¨å­¦ä¹ -æ–‡å­—ç‰ˆ-ç›®å½•](http://www.ai-start.com/ml2014/)
+- [å´æ©è¾¾2017æ·±åº¦å­¦ä¹ -æ–‡å­—ç‰ˆ-ç›®å½•](http://www.ai-start.com/dl2017/)
+- [å´æ©è¾¾2017æ·±åº¦å­¦ä¹ -å†…å®¹æç‚¼ç‰ˆ-ç›®å½•](http://kyonhuang.top/Andrew-Ng-Deep-Learning-notes/#/)
+
+### å…¶ä»–èµ„æ–™
+
+- [Google Tensorflow å®˜æ–¹æ•™ç¨‹](https://www.tensorflow.org/tutorials/)
+- [Google æœºå™¨å­¦ä¹ å…¥é—¨è¯¾ç¨‹](https://developers.google.cn/machine-learning/crash-course/)
+- [æ–¯å¦ç¦-æ·±åº¦è§†è§‰è¯†åˆ«è¯¾-æé£é£-2017æ˜¥å­£CS231nï¼ˆä¸­æ–‡å­—å¹•ï¼‰](http://www.mooc.ai/course/268)
+- [æ·±åº¦å­¦ä¹ é¡¹ç›®å®æˆ˜ï¼ˆä¸ƒæœˆåœ¨çº¿ - Googleå¼€æºé¡¹ç›®è®²è§£ï¼‰](https://pan.baidu.com/s/1ziU-IvN1ovEJR0c1wtmA1A) æå–ç ï¼šj90l
+- [æ¦‚ç‡ã€æ•°å­¦ä¸ç»Ÿè®¡åŸºç¡€](https://pan.baidu.com/s/11Y_G6EV90xqbtMU-X9mkPw) æå–ç ï¼šd66m
+- [Pythonæ•°æ®åˆ†æä¸æœºå™¨å­¦ä¹ å®æˆ˜](https://pan.baidu.com/s/1nKBuLhv-xusUfGUB1mmnxg) æå–ç ï¼šdksk
+- [æœºå™¨å­¦ä¹ VIï¼ˆå°åƒå­¦é™¢-ç¬¬ä¸ƒæœŸ-é‚¹åšåšå£«-201804ï¼‰](https://pan.baidu.com/s/1xjMVSsfGP66EDEAP90FNLw) æå–ç ï¼šmuhq
+- [è‡ªç„¶è¯­è¨€å¤„ç†NLPï¼ˆæ–¯å¦ç¦ã€å“ˆå·¥å¤§ã€ä¸­ç§‘é™¢ç­‰ï¼‰](https://pan.baidu.com/s/1csJDGk-znoONIVH-uFk9sQ) æå–ç ï¼špyo2 
+- [çŸ¥è¯†å›¾è°±ï¼ˆå°åƒå­¦é™¢-2018ï¼‰](https://pan.baidu.com/s/1Rwy7BuDZGHmMtFhoaDGQnQ) æå–ç ï¼šc59v
+- [AI æ¨èç®—æ³•ï¼ˆåŒ—é£-201804ï¼‰](https://pan.baidu.com/s/19en_QaQSXPlpMI59FORWXw) æå–ç ï¼š4ii2
 
 
-### ½¨Òé
-- Îâ¶÷´ï¿Î³Ì¿ÉÓÃÀ´¹¹½¨×Ô¼ºµÄ»úÆ÷Ñ§Ï°ÌåÏµ¹Û
-- Google¿Î³Ì¿É½áºÏÎâ¶÷´ï¿Î³Ì¶ÔÕÕÑ§Ï°
-- Àî·É·ÉÊÓ¾õ¿Î³ÌÄÑ¶ÈºÜ´ó£¬ĞèÒª»úÆ÷Ñ§Ï°»ù´¡£¬ÍÆ¼öÏÈÑ§Ï°Îâ¶÷´ï¿Î³Ì
-- ÆßÔÂÔÚÏß±à³ÌÏîÄ¿Éæ¼°µÄÖªÊ¶µã£¬Îâ¶÷´ï¿Î³Ì¶¼ÓĞ½²½â£¬ÏîÄ¿Êµ¼ùĞÔÇ¿£¬¿ÉÔËĞĞ
-- ¸ÅÂÊ¡¢ÊıÑ§ÓëÍ³¼Æ»ù´¡Éæ¼°¼¸°Ù¸öÊıÑ§ÖªÊ¶µã£¬Ã¿¸öÊÓÆµÔ¼10·ÖÖÓ¡£Ç°ÆÚÌø¹ı£¬ºóÆÚÑ§Ï°ÓĞÉæ¼°ÔÙµ±×ÖµäÓÃ¡£
-- Ğ¡ÏñÑ§ÔºµÄµÚÆßÆÚ»úÆ÷Ñ§Ï°¿Î³Ì£¬Æ«´«Í³»úÆ÷Ñ§Ï°Ëã·¨£¬Ã¿¸öËã·¨£º2Ğ¡Ê±ÀíÂÛ£¬2Ğ¡Ê±±à³Ì
-- NLP Éæ¼°³õÖĞ¸ßÈı¸öµÈ¼¶¿Î³Ì£»ÂÛÎÄ×ÊÁÏÓëpdfÎÄ¼ş·Ç³£·á¸»
-- AIÁìÓòµÄÖªÊ¶Í¼Æ×ÓëÍÆ¼öËã·¨¿Î³Ì£¬ÄÚÈİÓĞµãÅÓÔÓ£¬Ä¿Ç°ÉĞÎ´Êµ¼ù£¬¿Î³ÌÄÚÈİ¶ÔÉ¨Ã¤°ïÖúºÜ´ó
+### å»ºè®®
+
+- å´æ©è¾¾è¯¾ç¨‹å¯ç”¨æ¥æ„å»ºè‡ªå·±çš„æœºå™¨å­¦ä¹ ä½“ç³»è§‚
+- Googleè¯¾ç¨‹å¯ç»“åˆå´æ©è¾¾è¯¾ç¨‹å¯¹ç…§å­¦ä¹ 
+- æé£é£è§†è§‰è¯¾ç¨‹éš¾åº¦å¾ˆå¤§ï¼Œéœ€è¦æœºå™¨å­¦ä¹ åŸºç¡€ï¼Œæ¨èå…ˆå­¦ä¹ å´æ©è¾¾è¯¾ç¨‹
+- ä¸ƒæœˆåœ¨çº¿ç¼–ç¨‹é¡¹ç›®æ¶‰åŠçš„çŸ¥è¯†ç‚¹ï¼Œå´æ©è¾¾è¯¾ç¨‹éƒ½æœ‰è®²è§£ï¼Œé¡¹ç›®å®è·µæ€§å¼ºï¼Œå¯è¿è¡Œ
+- æ¦‚ç‡ã€æ•°å­¦ä¸ç»Ÿè®¡åŸºç¡€æ¶‰åŠå‡ ç™¾ä¸ªæ•°å­¦çŸ¥è¯†ç‚¹ï¼Œæ¯ä¸ªè§†é¢‘çº¦10åˆ†é’Ÿã€‚å‰æœŸè·³è¿‡ï¼ŒåæœŸå­¦ä¹ æœ‰æ¶‰åŠå†å½“å­—å…¸ç”¨ã€‚
+- å°åƒå­¦é™¢çš„ç¬¬ä¸ƒæœŸæœºå™¨å­¦ä¹ è¯¾ç¨‹ï¼Œåä¼ ç»Ÿæœºå™¨å­¦ä¹ ç®—æ³•ï¼Œæ¯ä¸ªç®—æ³•ï¼š2å°æ—¶ç†è®ºï¼Œ2å°æ—¶ç¼–ç¨‹
+- NLP æ¶‰åŠåˆä¸­é«˜ä¸‰ä¸ªç­‰çº§è¯¾ç¨‹ï¼›è®ºæ–‡èµ„æ–™ä¸pdfæ–‡ä»¶éå¸¸ä¸°å¯Œ
+- AIé¢†åŸŸçš„çŸ¥è¯†å›¾è°±ä¸æ¨èç®—æ³•è¯¾ç¨‹ï¼Œå†…å®¹æœ‰ç‚¹åºæ‚ï¼Œç›®å‰å°šæœªå®è·µï¼Œè¯¾ç¨‹å†…å®¹å¯¹æ‰«ç›²å¸®åŠ©å¾ˆå¤§

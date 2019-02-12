@@ -2,7 +2,7 @@ CNN经典网络总结
 ===
 
 
-### LeNet-5
+# LeNet-5
 
 **LeNet诞生于1998年**，网络结构比较完整，包括卷积层、pooling层、全连接层，这些都是现代CNN网络的基本组件，被认为是CNN的开端。
 
@@ -23,7 +23,7 @@ CNN经典网络总结
 相关论文：[LeCun et.al., 1998. Gradient-based learning applied to document recognition](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=726791&tag=1)。吴恩达老师建议精读第二段，泛读第三段。
 
 
-### AlexNet-8
+# AlexNet-8
 
 ![AlexNet-1](http://7xvfir.com1.z0.glb.clouddn.com/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E7%82%B9%E9%9B%86%E9%94%A6/AlexNet.png)
 
@@ -44,7 +44,7 @@ AlexNet-8有5个卷积层和3个全连接层，它与 LeNet-5 模型类似，但
 相关论文：[Krizhevsky et al.,2012. ImageNet classification with deep convolutional neural networks](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)。这是一篇易于理解并且影响巨大的论文，计算机视觉群体自此开始重视深度学习。
 
 
-### VGG-16
+# VGG-16
 
 ![VGG 常见结构图](http://7xvfir.com1.z0.glb.clouddn.com/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E7%82%B9%E9%9B%86%E9%94%A6/20180423192419_VGG.png)
 
@@ -62,7 +62,7 @@ AlexNet-8有5个卷积层和3个全连接层，它与 LeNet-5 模型类似，但
 相关论文：[Simonvan & Zisserman 2015. Very deep convolutional networks for large-scale image recognition](https://arxiv.org/pdf/1409.1556.pdf)。
 
 
-### 1x1 卷积
+# 1x1 卷积
 
 1x1 卷积（1x1 convolution，或称为 Network in Network）指滤波器的尺寸为 1。当通道数为 1 时，1x1 卷积意味着卷积操作等同于乘积操作。
 
@@ -77,7 +77,7 @@ AlexNet-8有5个卷积层和3个全连接层，它与 LeNet-5 模型类似，但
 虽然论文 [Lin et al., 2013. Network in network](https://arxiv.org/pdf/1312.4400.pdf) 中关于架构的详细内容并没有得到广泛应用，但是 1x1 卷积的理念十分有影响力，许多神经网络架构（包括 Inception 网络）都受到它的影响。
 
 
-### GoogleLeNet-22 Inception 网络
+# GoogleLeNet-22 Inception 网络
 
 2012年AlexNet做出历史突破以来，直到GoogLeNet出来之前，主流的网络结构突破大致是网络更深（层数），网络更宽（神经元数）。所以大家调侃深度学习为“深度调参”，但是纯粹的增大网络有如下缺点：
 
@@ -95,7 +95,7 @@ AlexNet-8有5个卷积层和3个全连接层，它与 LeNet-5 模型类似，但
 
 相关论文：[Szegedy et al., 2014, Going Deeper with Convolutions](https://arxiv.org/pdf/1409.4842.pdf)
 
-#### 计算成本问题
+## 计算成本问题
 
 在提升性能的同时，Inception 网络有着较大的计算成本。下图是一个例子：
 
@@ -113,7 +113,7 @@ AlexNet-8有5个卷积层和3个全连接层，它与 LeNet-5 模型类似，但
 
 只要合理构建瓶颈层，就可以既显著缩小计算规模，又不会降低网络性能。
 
-#### 完整的 Inception 网络
+##完整的 Inception 网络
 
 ![](http://7xvfir.com1.z0.glb.clouddn.com/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E7%82%B9%E9%9B%86%E9%94%A6/Inception-module.jpg)
 
@@ -127,7 +127,7 @@ AlexNet-8有5个卷积层和3个全连接层，它与 LeNet-5 模型类似，但
 
 经过研究者们的不断发展，Inception 模型的 V2、V3、V4 以及引入残差网络的版本被提出，这些变体都基于 Inception V1 版本的基础思想上。顺便一提，Inception 模型的名字来自电影《盗梦空间》。
 
-### ResNet-152 残差网络
+# ResNet-152 残差网络
 
 <font color="red">因为存在梯度消失和梯度爆炸问题，网络越深，就越难以训练成功。**残差网络**（Residual Networks，简称为 ResNets）可以有效解决这个问题。</font>
 
@@ -152,7 +152,7 @@ $$a^{[l+2]} = g(z^{[l+2]} + a^{[l]})$$
 
 **残差网络有助于解决梯度消失和梯度爆炸问题，使得在训练更深的网络的同时，又能保证良好的性能。**
 
-#### 残差网络有效的原因
+## 残差网络有效的原因
 假设有一个大型神经网络，其输入为 $X$，输出为 $a^{[l]}$。给这个神经网络额外增加两层，输出为 $a^{[l+2]}$。将这两层看作一个具有跳远连接的残差块。为了方便说明，假设整个网络中都选用 ReLU 作为激活函数，因此输出的所有激活值都大于等于 0。
 
 ![](http://7xvfir.com1.z0.glb.clouddn.com/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E7%82%B9%E9%9B%86%E9%94%A6/Why-do-residual-networks-work.jpg)
@@ -180,6 +180,6 @@ $$a^{[l+2]} = g(a^{[l]}) = ReLU(a^{[l]}) = a^{[l]}$$
 上图是论文提供的 CNN 中 ResNet 的一个典型结构。卷积层通常使用 Same 卷积以保持维度相同，而不同类型层之间的连接（例如卷积层和池化层），**如果维度不同，则需要引入矩阵 $W_s$**。
 
 
-### 经典网络对比
+# 经典网络对比
 
 ![](http://7xvfir.com1.z0.glb.clouddn.com/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0%E7%9F%A5%E8%AF%86%E7%82%B9%E9%9B%86%E9%94%A6/62.png)

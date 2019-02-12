@@ -1,7 +1,7 @@
 AI 学习资料
 ===
 
-### AI 资讯
+## AI 资讯
 
 - [Arxiv Sanity Preserver（AI论文检索引擎）](http://www.arxiv-sanity.com/)
 - [ShortScience（AI 论文摘要）](http://www.shortscience.org/)
@@ -14,7 +14,7 @@ AI 学习资料
 - [腾讯 AI Lab - 腾讯人工智能实验室官网](https://ai.tencent.com/ailab/)
 
 
-### AI 进阶
+## AI 进阶
 
 Kaggle 竞赛会对全球参赛者进行排名，通过查看参赛者代码，能极大提高AI编程能力。<br/>
 关注不同组织的竞赛，能有效获取各领域相关问题的前沿解决方案：<br/>
@@ -25,7 +25,7 @@ Kaggle 竞赛会对全球参赛者进行排名，通过查看参赛者代码，�
 - [阿里云天池大赛](https://tianchi.aliyun.com/competition/gameList/activeList)
 
 
-### 吴恩达
+## 吴恩达
 
 吴恩达课程，系统全面，基本涵盖了学术界与工业界2018年以前最新进展。
 课程内容按月设计，每月四周。每周课程内容：视频（每个约15min）、论文及编程作业。
@@ -38,7 +38,7 @@ Kaggle 竞赛会对全球参赛者进行排名，通过查看参赛者代码，�
 - [吴恩达2017深度学习-文字版-目录](http://www.ai-start.com/dl2017/)
 - [吴恩达2017深度学习-内容提炼版-目录](http://kyonhuang.top/Andrew-Ng-Deep-Learning-notes/#/)
 
-### 其他资料
+## 其他资料
 
 - [Google Tensorflow 官方教程](https://www.tensorflow.org/tutorials/)
 - [Google 机器学习入门课程](https://developers.google.cn/machine-learning/crash-course/)
@@ -52,7 +52,7 @@ Kaggle 竞赛会对全球参赛者进行排名，通过查看参赛者代码，�
 - [AI 推荐算法（北风-201804）](https://pan.baidu.com/s/19en_QaQSXPlpMI59FORWXw) 提取码：4ii2
 
 
-### 建议
+## 建议
 
 - 吴恩达课程可用来构建自己的机器学习体系观
 - Google课程可结合吴恩达课程对照学习

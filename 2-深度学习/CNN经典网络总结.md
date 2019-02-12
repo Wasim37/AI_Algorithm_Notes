@@ -14,7 +14,7 @@ CNN经典网络总结
 - 当 LeNet-5模型被提出时，其池化层使用的是平均池化，而且各层激活函数一般选用 Sigmoid 和 tanh。现在，我们可以根据需要，做出改进，使用最大池化并选用 ReLU 作为激活函数。
 
 
-![](http://7xvfir.com1.z0.glb.clouddn.com/深度学习知识点集锦/LeNet-5.png)
+![](http://hexo-blog-wasim.oss-cn-shenzhen.aliyuncs.com/深度学习知识点集锦/LeNet-5.png)
 
 ![](http://7xvfir.com1.z0.glb.clouddn.com/深度学习知识点集锦/blog-lenet.jpg)
 

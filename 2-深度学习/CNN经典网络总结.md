@@ -1,7 +1,6 @@
 CNN经典网络总结
 ===
 
----
 
 ### LeNet-5
 
@@ -23,7 +22,6 @@ CNN经典网络总结
 
 相关论文：[LeCun et.al., 1998. Gradient-based learning applied to document recognition](http://ieeexplore.ieee.org/stamp/stamp.jsp?arnumber=726791&tag=1)。吴恩达老师建议精读第二段，泛读第三段。
 
----
 
 ### AlexNet-8
 
@@ -45,7 +43,6 @@ AlexNet-8有5个卷积层和3个全连接层，它与 LeNet-5 模型类似，但
 
 相关论文：[Krizhevsky et al.,2012. ImageNet classification with deep convolutional neural networks](http://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf)。这是一篇易于理解并且影响巨大的论文，计算机视觉群体自此开始重视深度学习。
 
----
 
 ### VGG-16
 
@@ -64,7 +61,6 @@ AlexNet-8有5个卷积层和3个全连接层，它与 LeNet-5 模型类似，但
 
 相关论文：[Simonvan & Zisserman 2015. Very deep convolutional networks for large-scale image recognition](https://arxiv.org/pdf/1409.1556.pdf)。
 
----
 
 ### 1x1 卷积
 
@@ -80,7 +76,6 @@ AlexNet-8有5个卷积层和3个全连接层，它与 LeNet-5 模型类似，但
 
 虽然论文 [Lin et al., 2013. Network in network](https://arxiv.org/pdf/1312.4400.pdf) 中关于架构的详细内容并没有得到广泛应用，但是 1x1 卷积的理念十分有影响力，许多神经网络架构（包括 Inception 网络）都受到它的影响。
 
----
 
 ### GoogleLeNet-22 Inception 网络
 
@@ -132,7 +127,6 @@ AlexNet-8有5个卷积层和3个全连接层，它与 LeNet-5 模型类似，但
 
 经过研究者们的不断发展，Inception 模型的 V2、V3、V4 以及引入残差网络的版本被提出，这些变体都基于 Inception V1 版本的基础思想上。顺便一提，Inception 模型的名字来自电影《盗梦空间》。
 
----
 ### ResNet-152 残差网络
 
 <font color="red">因为存在梯度消失和梯度爆炸问题，网络越深，就越难以训练成功。**残差网络**（Residual Networks，简称为 ResNets）可以有效解决这个问题。</font>
@@ -185,7 +179,6 @@ $$a^{[l+2]} = g(a^{[l]}) = ReLU(a^{[l]}) = a^{[l]}$$
 
 上图是论文提供的 CNN 中 ResNet 的一个典型结构。卷积层通常使用 Same 卷积以保持维度相同，而不同类型层之间的连接（例如卷积层和池化层），**如果维度不同，则需要引入矩阵 $W_s$**。
 
----
 
 ### 经典网络对比
 

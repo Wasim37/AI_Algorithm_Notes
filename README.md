@@ -1,5 +1,7 @@
 # AI_Algorithm_Notes
  
-Github¹«Ê½ÏÔÊ¾·½°¸£º<br/>
-1¡¢[×ª»»ÎªÍ¼Æ¬](https://www.jianshu.com/p/c169599726e1), µ«ÊÇ¹¤×÷Á¿Ì«´ó <br/>
-2¡¢Googleä¯ÀÀÆ÷°²×° [GitHub with MathJax](https://chrome.google.com/webstore/detail/github-with-mathjax/ioemnmodlmafdkllaclgeombjnmnbima) ²å¼ş
+å› åŸåšå®¢æ–‡ç« å›¾ç‰‡å¤±æ•ˆï¼Œä¸´æ—¶æ–‡ç« è‡³æ­¤
+ 
+Githubå…¬å¼æ˜¾ç¤ºæ–¹æ¡ˆï¼š<br/>
+1ã€[è½¬æ¢ä¸ºå›¾ç‰‡](https://www.jianshu.com/p/c169599726e1), ä½†æ˜¯å·¥ä½œé‡å¤ªå¤§ <br/>
+2ã€Googleæµè§ˆå™¨å®‰è£… [GitHub with MathJax](https://chrome.google.com/webstore/detail/github-with-mathjax/ioemnmodlmafdkllaclgeombjnmnbima) æ’ä»¶
